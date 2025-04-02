@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["fundamentals", "hello_world", "structs_methods"]
