@@ -1,3 +1,12 @@
 [workspace]
 resolver = "2"
-members = ["fundamentals", "hello_world", "structs_methods", "tdd"]
+members = [
+  "async_rust",
+  "fundamentals",
+  "hello_world",
+  "structs_methods",
+  "tdd",
+]
+
+[workspace.dependencies]
+tokio = { version = "1.44.2", features = ["full"] }

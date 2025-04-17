@@ -21,6 +21,7 @@
 - idk the application of aliasing (uses the **type** key word), but it's good to know that you can change the data types, not change per say btw
 - in **match** statement, you can use if
 - use **if let** when matching some enums (**option**)
+- while loops are considered more unsafe compared to for loops
 
 # challenges
 - how to return multiple types and values returned from a function
