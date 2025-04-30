@@ -23,6 +23,7 @@
 - use **if let** when matching some enums (**option**)
 - while loops are considered more unsafe compared to for loops
 - use **while let** more for iterating enums | vecs
+- if takes input = must use **result** and **option**
 
 # challenges
 - how to return multiple types and values returned from a function
