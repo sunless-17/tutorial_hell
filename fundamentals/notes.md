@@ -19,11 +19,12 @@
 - nested loops have labels
 - default to using while loops (requires condition), when iterating through a collection, the go with for loop
 - idk the application of aliasing (uses the **type** key word), but it's good to know that you can change the data types, not change per say btw
-- in **match** statement, you can use if
-- use **if let** when matching some enums (**option**)
+- in **match** statement better than **if statements**
+- use **if let** when matching options
 - while loops are considered more unsafe compared to for loops
 - use **while let** more for iterating enums | vecs
 - if takes input = must use **result** and **option**
+- user auth and database queries use **option**
 
 # challenges
 - how to return multiple types and values returned from a function
