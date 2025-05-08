@@ -1,11 +1,11 @@
-fn foo<F, T>(f: F, x: T) -> T
+fn higher_order_function<T>(y: T, x: u32) -> u32
 where
-  F: Fn(T) -> T,
+  T: Fn(u32) -> u32,
 {
-  f(x)
+  y(x + 2)
 }
 
 fn main() {
-  let bar = foo(|8| {}, 8);
-  println!("Higher Order! {}", bar);
+  let z = higher_order_function(|x| x, 2);
+  println!("Higher Order! {z}");
 }
